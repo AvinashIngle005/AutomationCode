@@ -86,12 +86,19 @@ public class ProfileManagement extends CommonUtility {
 	@FindBy(xpath = "//div[@id='WebPixelsManagerSandboxContainer']/iframe")
 	WebElement iframe;
 
+	/*
+	 * This Method Verify Login Icon Is displayed or not
+	 */
 	public boolean verifyAccountCreationIcon() {
 		waitUntilVisibilityOf(loginIcon);
 		System.out.println("Login link is visibile");
 		return loginIcon.isDisplayed();
 	}
 
+	/*
+	 * This Method Verify the error message for submitting invalid email during
+	 * account creation
+	 */
 	public void verifyInvalidEmailErrorMessage(String firstNameValue, String lastNameValue, String emailValue,
 			String headerErrorMessageValue, String emailErrorMessageValue) {
 		String passwordValue = RandomStringUtils.randomAlphabetic(5);
@@ -125,6 +132,10 @@ public class ProfileManagement extends CommonUtility {
 		}
 	}
 
+	/*
+	 * This Method Verify the error message for submitting invalid password during
+	 * account creation
+	 */
 	public void verifyInvalidPasswordErrorMessage(String firstNameValue, String lastNameValue, String passwordValue,
 			String headerErrorMessageValue, String passwordErrorMessageValue) {
 		String value = RandomStringUtils.randomAlphabetic(4);
@@ -159,6 +170,9 @@ public class ProfileManagement extends CommonUtility {
 		}
 	}
 
+	/*
+	 * This Method Verify successful account creation process
+	 */
 	public void verifySuccessfullAccountCreation(String lastNameValue) throws InterruptedException {
 		String value = RandomStringUtils.randomAlphabetic(4);
 		String passwordValue = RandomStringUtils.randomAlphabetic(6);
@@ -190,6 +204,9 @@ public class ProfileManagement extends CommonUtility {
 
 	}
 
+	/*
+	 * This Method is used to edit profile i.e address
+	 */
 	public void editProfile(String addressValue, String cityValue) throws InterruptedException {
 		waitUntilVisibilityOf(viewAddress);
 		viewAddress.click();
@@ -207,6 +224,9 @@ public class ProfileManagement extends CommonUtility {
 		}
 	}
 
+	/*
+	 * This Method is used to delete the address
+	 */
 	public void deleteAddress() {
 		waitUntilVisibilityOf(viewAddress);
 		viewAddress.click();
@@ -217,5 +237,4 @@ public class ProfileManagement extends CommonUtility {
 
 	}
 
-	
 }

@@ -38,32 +38,51 @@ public class SearchProduct extends CommonUtility {
 
 	By suggestion = By.xpath("//ul[@id='predictive-search-results-list']/li/a/div/h3");
 
+	/*
+	 * This Method is used to check search textfield is displayed
+	 */
 	public boolean verifySearchTextField() {
 		searchButton.click();
 		waitUntilVisibilityOf(searchTextBox);
 		return searchTextBox.isDisplayed();
 	}
-
+	
+	
+	/*
+	 * This Method is used to enter product full name
+	 */
 	public void enterProductFullName(String input) {
 		searchTextBox.clear();
 		searchTextBox.sendKeys(input);
 	}
 
+	/*
+	 * This Method is used to enter product full name in Upper case
+	 */
 	public void enterProductFullNameInUpperCase(String input) {
 		searchTextBox.clear();
 		searchTextBox.sendKeys(input.toUpperCase());
 	}
 
+	/*
+	 * This Method is used to enter product full name in lower case
+	 */
 	public void enterProductFullNameInLowerCase(String input) {
 		searchTextBox.clear();
 		searchTextBox.sendKeys(input.toLowerCase());
 	}
 
+	/*
+	 * This Method is used to enter product name's first three letters
+	 */
 	public void enterFirstThreeLetterOfProductlName(String input) {
 		searchTextBox.clear();
 		searchTextBox.sendKeys(input.substring(0, 4));
 	}
 
+	/*
+	 * This Method is used to check if the search suggestion include particular product 
+	 */
 	public boolean verifySearchSuggestion(String input) {
 		waitUntilVisibilityElementLocated(suggestion);
 		WebElement searchResult = suggestions.stream().filter(s -> s.getText().equalsIgnoreCase(input)).findFirst()
@@ -75,6 +94,9 @@ public class SearchProduct extends CommonUtility {
 		}
 	}
 
+	/*
+	 * This Method is used to check if the search suggestion shouws accurate sugestions i.e it shows particular product only
+	 */
 	public boolean verifyNumberOfSearchSuggestionsIsOne() {
 		waitUntilVisibilityElementLocated(suggestion);
 		if (suggestions.size() == 1) {
@@ -87,7 +109,10 @@ public class SearchProduct extends CommonUtility {
 
 	}
 
-	public boolean verifySearchSuggestionAndSearchResultIsRelevant(String input) throws InterruptedException {
+	/*
+	 * This Method is used to check if the search suggestion shouws accurate sugestions for multiple product searches
+	 */
+	public boolean verifySearchSuggestionAndSearchResultIsRelevant(String input)   {
 		waitUntilVisibilityElementLocated(suggestion);
 		WebElement searchResult = suggestions.stream().filter(s -> s.getText().equalsIgnoreCase(input)).findFirst()
 				.get();
@@ -95,7 +120,6 @@ public class SearchProduct extends CommonUtility {
 		waitUntilVisibilityOf(searchedProductName);
 		if (searchedProductName.getText().equals(input)) {
 			driver.navigate().back();
-//			Thread.sleep(10000);
 			return true;
 		} else {
 

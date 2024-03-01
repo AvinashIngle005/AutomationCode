@@ -36,7 +36,9 @@ public class LoginPage extends CommonUtility{
 	WebElement loginError;
 	
 	
-	
+	/*
+	 * This Method Verify Successful Login Process 
+	 */
 	public void successfullLogin(String email,String password,String name) {
 		waitUntilVisibilityOf(loginIcon);
 		loginIcon.click();
@@ -51,6 +53,9 @@ public class LoginPage extends CommonUtility{
 	}
 
 
+	/*
+	 * This Method Verify the error message for submitting wrong password during login
+	 */
 	public void unsuccessfullLogin(String email, String password, String errorMessage) {
 		waitUntilVisibilityOf(loginIcon);
 		loginIcon.click();

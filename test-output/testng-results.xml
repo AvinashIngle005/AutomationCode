@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="10" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-01T16:07:31 IST" name="Suite" finished-at="2024-03-01T16:13:57 IST" duration-ms="385994">
+    <groups>
+    </groups>
+    <test started-at="2024-03-01T16:07:31 IST" name="Test" finished-at="2024-03-01T16:13:57 IST" duration-ms="385994">
+      <class name="uiAutomationScripts.VerifyCheckoutProcess">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:uiAutomationScripts.VerifyCheckoutProcess@78691363]" started-at="2024-03-01T16:12:59 IST" name="launchApplication" finished-at="2024-03-01T16:13:06 IST" duration-ms="7547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifySuccessfullAccountCreation(java.util.HashMap)[pri:0, instance:uiAutomationScripts.VerifyCheckoutProcess@78691363]" started-at="2024-03-01T16:13:06 IST" name="verifySuccessfullAccountCreation" data-provider="getData" finished-at="2024-03-01T16:13:57 IST" duration-ms="50471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{passwordErrorMessage=Password is too short (minimum is 5 characters)., wrongPassword=Avinas, lastName=xyz, pincode=411028, product=15mm Combo Wrench, address=Hadapsar, ConatctEmailErrorMessage=Email is invalid, city=Pune, existingPassword=Avinash, invalidPassword=bnm, contactFormSubmissionMessage=Thanks for contacting us. We'll get back to you as soon as possible., firstName=abc, password=qwerty, headerErrorMessage=Please adjust the following:, phoneNumber=1234567890, existingLastName=test, existingName=avitest, loginError=Incorrect email or password., email=abcd@test.com, invalidEmail=abc@testcom, emailErrorMessage=Email is invalid., existingEmail=avitest@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfullAccountCreation -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:uiAutomationScripts.VerifyCheckoutProcess@78691363]" started-at="2024-03-01T16:13:57 IST" name="closeWindow" finished-at="2024-03-01T16:13:57 IST" duration-ms="543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- uiAutomationScripts.VerifyCheckoutProcess -->
+      <class name="uiAutomationScripts.VerifyLoginAndRegistrationProcess">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:uiAutomationScripts.VerifyLoginAndRegistrationProcess@3e694b3f]" started-at="2024-03-01T16:10:22 IST" name="launchApplication" finished-at="2024-03-01T16:10:29 IST" duration-ms="7711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifySuccessfullAccountCreation(java.util.HashMap)[pri:0, instance:uiAutomationScripts.VerifyLoginAndRegistrationProcess@3e694b3f]" started-at="2024-03-01T16:10:29 IST" name="verifySuccessfullAccountCreation" data-provider="getData" finished-at="2024-03-01T16:10:39 IST" duration-ms="9695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{passwordErrorMessage=Password is too short (minimum is 5 characters)., wrongPassword=Avinas, lastName=xyz, pincode=411028, product=15mm Combo Wrench, address=Hadapsar, ConatctEmailErrorMessage=Email is invalid, city=Pune, existingPassword=Avinash, invalidPassword=bnm, contactFormSubmissionMessage=Thanks for contacting us. We'll get back to you as soon as possible., firstName=abc, password=qwerty, headerErrorMessage=Please adjust the following:, phoneNumber=1234567890, existingLastName=test, existingName=avitest, loginError=Incorrect email or password., email=abcd@test.com, invalidEmail=abc@testcom, emailErrorMessage=Email is invalid., existingEmail=avitest@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfullAccountCreation -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:uiAutomationScripts.VerifyLoginAndRegistrationProcess@3e694b3f]" started-at="2024-03-01T16:10:39 IST" name="closeWindow" finished-at="2024-03-01T16:10:40 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:uiAutomationScripts.VerifyLoginAndRegistrationProcess@3e694b3f]" started-at="2024-03-01T16:10:40 IST" name="launchApplication" finished-at="2024-03-01T16:10:47 IST" duration-ms="7354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifySuccessfullLogin(java.util.HashMap)[pri:0, instance:uiAutomationScripts.VerifyLoginAndRegistrationProcess@3e694b3f]" started-at="2024-03-01T16:10:47 IST" name="verifySuccessfullLogin" data-provider="getData" finished-at="2024-03-01T16:11:10 IST" duration-ms="23345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{passwordErrorMessage=Password is too short (minimum is 5 characters)., wrongPassword=Avinas, lastName=xyz, pincode=411028, product=15mm Combo Wrench, address=Hadapsar, ConatctEmailErrorMessage=Email is invalid, city=Pune, existingPassword=Avinash, invalidPassword=bnm, contactFormSubmissionMessage=Thanks for contacting us. We'll get back to you as soon as possible., firstName=abc, password=qwerty, headerErrorMessage=Please adjust the following:, phoneNumber=1234567890, existingLastName=test, existingName=avitest, loginError=Incorrect email or password., email=abcd@test.com, invalidEmail=abc@testcom, emailErrorMessage=Email is invalid., existingEmail=avitest@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfullLogin -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:uiAutomationScripts.VerifyLoginAndRegistrationProcess@3e694b3f]" started-at="2024-03-01T16:11:10 IST" name="closeWindow" finished-at="2024-03-01T16:11:11 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:uiAutomationScripts.VerifyLoginAndRegistrationProcess@3e694b3f]" started-at="2024-03-01T16:11:11 IST" name="launchApplication" finished-at="2024-03-01T16:11:16 IST" duration-ms="4943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyunSuccessfullLogin(java.util.HashMap)[pri:0, instance:uiAutomationScripts.VerifyLoginAndRegistrationProcess@3e694b3f]" started-at="2024-03-01T16:11:16 IST" name="verifyunSuccessfullLogin" data-provider="getData" finished-at="2024-03-01T16:11:36 IST" duration-ms="19906" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{passwordErrorMessage=Password is too short (minimum is 5 characters)., wrongPassword=Avinas, lastName=xyz, pincode=411028, product=15mm Combo Wrench, address=Hadapsar, ConatctEmailErrorMessage=Email is invalid, city=Pune, existingPassword=Avinash, invalidPassword=bnm, contactFormSubmissionMessage=Thanks for contacting us. We'll get back to you as soon as possible., firstName=abc, password=qwerty, headerErrorMessage=Please adjust the following:, phoneNumber=1234567890, existingLastName=test, existingName=avitest, loginError=Incorrect email or password., email=abcd@test.com, invalidEmail=abc@testcom, emailErrorMessage=Email is invalid., existingEmail=avitest@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h2[@class='form__message']/following-sibling::div/ul/li"}
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da1d3cd864463e8d2dbef93c94172751, findElement {using=xpath, value=//h2[@class='form__message']/following-sibling::div/ul/li}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Avinash\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62761}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62761/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da1d3cd864463e8d2dbef93c94172751]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[@class='form__message']/following-sibling::div/ul/li"}
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da1d3cd864463e8d2dbef93c94172751, findElement {using=xpath, value=//h2[@class='form__message']/following-sibling::div/ul/li}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Avinash\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62761}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62761/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da1d3cd864463e8d2dbef93c94172751
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.getText(Unknown Source)
+at utility.LoginPage.unsuccessfullLogin(LoginPage.java:61)
+at uiAutomationScripts.VerifyLoginAndRegistrationProcess.verifyunSuccessfullLogin(VerifyLoginAndRegistrationProcess.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyunSuccessfullLogin -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:uiAutomationScripts.VerifyLoginAndRegistrationProcess@3e694b3f]" started-at="2024-03-01T16:11:36 IST" name="closeWindow" finished-at="2024-03-01T16:11:36 IST" duration-ms="719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- uiAutomationScripts.VerifyLoginAndRegistrationProcess -->
+      <class name="uiAutomationScripts.VerifySearchFunctionality">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:uiAutomationScripts.VerifySearchFunctionality@55b699ef]" started-at="2024-03-01T16:07:32 IST" name="launchApplication" finished-at="2024-03-01T16:07:45 IST" duration-ms="12737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyAccuracyAndRelevanceOfSearchResults(java.util.HashMap)[pri:0, instance:uiAutomationScripts.VerifySearchFunctionality@55b699ef]" started-at="2024-03-01T16:07:45 IST" name="verifyAccuracyAndRelevanceOfSearchResults" data-provider="getData" finished-at="2024-03-01T16:07:55 IST" duration-ms="10008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{passwordErrorMessage=Password is too short (minimum is 5 characters)., wrongPassword=Avinas, lastName=xyz, pincode=411028, product=15mm Combo Wrench, address=Hadapsar, ConatctEmailErrorMessage=Email is invalid, city=Pune, existingPassword=Avinash, invalidPassword=bnm, contactFormSubmissionMessage=Thanks for contacting us. We'll get back to you as soon as possible., firstName=abc, password=qwerty, headerErrorMessage=Please adjust the following:, phoneNumber=1234567890, existingLastName=test, existingName=avitest, loginError=Incorrect email or password., email=abcd@test.com, invalidEmail=abc@testcom, emailErrorMessage=Email is invalid., existingEmail=avitest@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccuracyAndRelevanceOfSearchResults -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:uiAutomationScripts.VerifySearchFunctionality@55b699ef]" started-at="2024-03-01T16:07:55 IST" name="closeWindow" finished-at="2024-03-01T16:07:59 IST" duration-ms="3991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:uiAutomationScripts.VerifySearchFunctionality@55b699ef]" started-at="2024-03-01T16:07:59 IST" name="launchApplication" finished-at="2024-03-01T16:08:11 IST" duration-ms="12653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifySearchSuggestions(java.util.HashMap)[pri:0, instance:uiAutomationScripts.VerifySearchFunctionality@55b699ef]" started-at="2024-03-01T16:08:11 IST" name="verifySearchSuggestions" data-provider="getData" finished-at="2024-03-01T16:08:15 IST" duration-ms="3135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{passwordErrorMessage=Password is too short (minimum is 5 characters)., wrongPassword=Avinas, lastName=xyz, pincode=411028, product=15mm Combo Wrench, address=Hadapsar, ConatctEmailErrorMessage=Email is invalid, city=Pune, existingPassword=Avinash, invalidPassword=bnm, contactFormSubmissionMessage=Thanks for contacting us. We'll get back to you as soon as possible., firstName=abc, password=qwerty, headerErrorMessage=Please adjust the following:, phoneNumber=1234567890, existingLastName=test, existingName=avitest, loginError=Incorrect email or password., email=abcd@test.com, invalidEmail=abc@testcom, emailErrorMessage=Email is invalid., existingEmail=avitest@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchSuggestions -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:uiAutomationScripts.VerifySearchFunctionality@55b699ef]" started-at="2024-03-01T16:08:15 IST" name="closeWindow" finished-at="2024-03-01T16:08:15 IST" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- uiAutomationScripts.VerifySearchFunctionality -->
+      <class name="uiAutomationScripts.VerifyContactPage">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:uiAutomationScripts.VerifyContactPage@1bb5a082]" started-at="2024-03-01T16:11:36 IST" name="launchApplication" finished-at="2024-03-01T16:11:45 IST" duration-ms="8402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyConatctPageWithInvalidDetails(java.util.HashMap)[pri:0, instance:uiAutomationScripts.VerifyContactPage@1bb5a082]" started-at="2024-03-01T16:11:45 IST" name="verifyConatctPageWithInvalidDetails" data-provider="getData" finished-at="2024-03-01T16:12:00 IST" duration-ms="15096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{passwordErrorMessage=Password is too short (minimum is 5 characters)., wrongPassword=Avinas, lastName=xyz, pincode=411028, product=15mm Combo Wrench, address=Hadapsar, ConatctEmailErrorMessage=Email is invalid, city=Pune, existingPassword=Avinash, invalidPassword=bnm, contactFormSubmissionMessage=Thanks for contacting us. We'll get back to you as soon as possible., firstName=abc, password=qwerty, headerErrorMessage=Please adjust the following:, phoneNumber=1234567890, existingLastName=test, existingName=avitest, loginError=Incorrect email or password., email=abcd@test.com, invalidEmail=abc@testcom, emailErrorMessage=Email is invalid., existingEmail=avitest@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConatctPageWithInvalidDetails -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:uiAutomationScripts.VerifyContactPage@1bb5a082]" started-at="2024-03-01T16:12:00 IST" name="closeWindow" finished-at="2024-03-01T16:12:00 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:uiAutomationScripts.VerifyContactPage@1bb5a082]" started-at="2024-03-01T16:12:00 IST" name="launchApplication" finished-at="2024-03-01T16:12:08 IST" duration-ms="7966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyConatctPageWithValidDetails(java.util.HashMap)[pri:0, instance:uiAutomationScripts.VerifyContactPage@1bb5a082]" started-at="2024-03-01T16:12:08 IST" name="verifyConatctPageWithValidDetails" data-provider="getData" finished-at="2024-03-01T16:12:58 IST" duration-ms="50135" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{passwordErrorMessage=Password is too short (minimum is 5 characters)., wrongPassword=Avinas, lastName=xyz, pincode=411028, product=15mm Combo Wrench, address=Hadapsar, ConatctEmailErrorMessage=Email is invalid, city=Pune, existingPassword=Avinash, invalidPassword=bnm, contactFormSubmissionMessage=Thanks for contacting us. We'll get back to you as soon as possible., firstName=abc, password=qwerty, headerErrorMessage=Please adjust the following:, phoneNumber=1234567890, existingLastName=test, existingName=avitest, loginError=Incorrect email or password., email=abcd@test.com, invalidEmail=abc@testcom, emailErrorMessage=Email is invalid., existingEmail=avitest@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='customer account']/div/a' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='customer account']/div/a' (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at commonUtility.CommonUtility.waitUntilVisibilityOf(CommonUtility.java:43)
+at utility.ProfileManagement.verifySuccessfullAccountCreation(ProfileManagement.java:185)
+at uiAutomationScripts.VerifyContactPage.verifyConatctPageWithValidDetails(VerifyContactPage.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='customer account']/div/a"}
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bc95f791076812583eb2f11d9a545641, findElement {using=xpath, value=//div[@class='customer account']/div/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Avinash\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62942}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62942/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc95f791076812583eb2f11d9a545641
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConatctPageWithValidDetails -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:uiAutomationScripts.VerifyContactPage@1bb5a082]" started-at="2024-03-01T16:12:58 IST" name="closeWindow" finished-at="2024-03-01T16:12:59 IST" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- uiAutomationScripts.VerifyContactPage -->
+      <class name="uiAutomationScripts.VerifyProfileManagement">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:uiAutomationScripts.VerifyProfileManagement@65fb9ffc]" started-at="2024-03-01T16:08:15 IST" name="launchApplication" finished-at="2024-03-01T16:08:29 IST" duration-ms="14186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyAccountCreation(java.util.HashMap)[pri:0, instance:uiAutomationScripts.VerifyProfileManagement@65fb9ffc]" started-at="2024-03-01T16:08:29 IST" name="verifyAccountCreation" data-provider="getData" finished-at="2024-03-01T16:08:39 IST" duration-ms="9485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{passwordErrorMessage=Password is too short (minimum is 5 characters)., wrongPassword=Avinas, lastName=xyz, pincode=411028, product=15mm Combo Wrench, address=Hadapsar, ConatctEmailErrorMessage=Email is invalid, city=Pune, existingPassword=Avinash, invalidPassword=bnm, contactFormSubmissionMessage=Thanks for contacting us. We'll get back to you as soon as possible., firstName=abc, password=qwerty, headerErrorMessage=Please adjust the following:, phoneNumber=1234567890, existingLastName=test, existingName=avitest, loginError=Incorrect email or password., email=abcd@test.com, invalidEmail=abc@testcom, emailErrorMessage=Email is invalid., existingEmail=avitest@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountCreation -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:uiAutomationScripts.VerifyProfileManagement@65fb9ffc]" started-at="2024-03-01T16:08:39 IST" name="closeWindow" finished-at="2024-03-01T16:08:39 IST" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:uiAutomationScripts.VerifyProfileManagement@65fb9ffc]" started-at="2024-03-01T16:08:40 IST" name="launchApplication" finished-at="2024-03-01T16:08:47 IST" duration-ms="7786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyAccountCreationAndEditDetails(java.util.HashMap)[pri:0, instance:uiAutomationScripts.VerifyProfileManagement@65fb9ffc]" started-at="2024-03-01T16:08:47 IST" name="verifyAccountCreationAndEditDetails" data-provider="getData" finished-at="2024-03-01T16:09:18 IST" duration-ms="30669" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{passwordErrorMessage=Password is too short (minimum is 5 characters)., wrongPassword=Avinas, lastName=xyz, pincode=411028, product=15mm Combo Wrench, address=Hadapsar, ConatctEmailErrorMessage=Email is invalid, city=Pune, existingPassword=Avinash, invalidPassword=bnm, contactFormSubmissionMessage=Thanks for contacting us. We'll get back to you as soon as possible., firstName=abc, password=qwerty, headerErrorMessage=Please adjust the following:, phoneNumber=1234567890, existingLastName=test, existingName=avitest, loginError=Incorrect email or password., email=abcd@test.com, invalidEmail=abc@testcom, emailErrorMessage=Email is invalid., existingEmail=avitest@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchFrameException">
+            <message>
+              <![CDATA[No frame element found by name or id web-pixel-sandbox-CUSTOM-shopify-custom-pixel-LAX-4d8af208w39648077pb05fb6acmf7ef51d2
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchFrameException: No frame element found by name or id web-pixel-sandbox-CUSTOM-shopify-custom-pixel-LAX-4d8af208w39648077pb05fb6acmf7ef51d2
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: unknown
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:1136)
+at utility.ProfileManagement.editProfile(ProfileManagement.java:198)
+at uiAutomationScripts.VerifyProfileManagement.verifyAccountCreationAndEditDetails(VerifyProfileManagement.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountCreationAndEditDetails -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:uiAutomationScripts.VerifyProfileManagement@65fb9ffc]" started-at="2024-03-01T16:09:18 IST" name="closeWindow" finished-at="2024-03-01T16:09:18 IST" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:uiAutomationScripts.VerifyProfileManagement@65fb9ffc]" started-at="2024-03-01T16:09:18 IST" name="launchApplication" finished-at="2024-03-01T16:09:27 IST" duration-ms="8651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyAccountCreationAnddeleteDetails(java.util.HashMap)[pri:0, instance:uiAutomationScripts.VerifyProfileManagement@65fb9ffc]" started-at="2024-03-01T16:09:27 IST" name="verifyAccountCreationAnddeleteDetails" data-provider="getData" finished-at="2024-03-01T16:09:38 IST" duration-ms="10468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{passwordErrorMessage=Password is too short (minimum is 5 characters)., wrongPassword=Avinas, lastName=xyz, pincode=411028, product=15mm Combo Wrench, address=Hadapsar, ConatctEmailErrorMessage=Email is invalid, city=Pune, existingPassword=Avinash, invalidPassword=bnm, contactFormSubmissionMessage=Thanks for contacting us. We'll get back to you as soon as possible., firstName=abc, password=qwerty, headerErrorMessage=Please adjust the following:, phoneNumber=1234567890, existingLastName=test, existingName=avitest, loginError=Incorrect email or password., email=abcd@test.com, invalidEmail=abc@testcom, emailErrorMessage=Email is invalid., existingEmail=avitest@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountCreationAnddeleteDetails -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:uiAutomationScripts.VerifyProfileManagement@65fb9ffc]" started-at="2024-03-01T16:09:38 IST" name="closeWindow" finished-at="2024-03-01T16:09:39 IST" duration-ms="908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:uiAutomationScripts.VerifyProfileManagement@65fb9ffc]" started-at="2024-03-01T16:09:39 IST" name="launchApplication" finished-at="2024-03-01T16:09:47 IST" duration-ms="8159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyAccountCreationWithInvalidEmail(java.util.HashMap)[pri:0, instance:uiAutomationScripts.VerifyProfileManagement@65fb9ffc]" started-at="2024-03-01T16:09:47 IST" name="verifyAccountCreationWithInvalidEmail" data-provider="getData" finished-at="2024-03-01T16:10:06 IST" duration-ms="18878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{passwordErrorMessage=Password is too short (minimum is 5 characters)., wrongPassword=Avinas, lastName=xyz, pincode=411028, product=15mm Combo Wrench, address=Hadapsar, ConatctEmailErrorMessage=Email is invalid, city=Pune, existingPassword=Avinash, invalidPassword=bnm, contactFormSubmissionMessage=Thanks for contacting us. We'll get back to you as soon as possible., firstName=abc, password=qwerty, headerErrorMessage=Please adjust the following:, phoneNumber=1234567890, existingLastName=test, existingName=avitest, loginError=Incorrect email or password., email=abcd@test.com, invalidEmail=abc@testcom, emailErrorMessage=Email is invalid., existingEmail=avitest@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountCreationWithInvalidEmail -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:uiAutomationScripts.VerifyProfileManagement@65fb9ffc]" started-at="2024-03-01T16:10:06 IST" name="closeWindow" finished-at="2024-03-01T16:10:06 IST" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:uiAutomationScripts.VerifyProfileManagement@65fb9ffc]" started-at="2024-03-01T16:10:06 IST" name="launchApplication" finished-at="2024-03-01T16:10:14 IST" duration-ms="7860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyAccountCreationWithPasswordBelowBoundaryValue(java.util.HashMap)[pri:0, instance:uiAutomationScripts.VerifyProfileManagement@65fb9ffc]" started-at="2024-03-01T16:10:14 IST" name="verifyAccountCreationWithPasswordBelowBoundaryValue" data-provider="getData" finished-at="2024-03-01T16:10:21 IST" duration-ms="7335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{passwordErrorMessage=Password is too short (minimum is 5 characters)., wrongPassword=Avinas, lastName=xyz, pincode=411028, product=15mm Combo Wrench, address=Hadapsar, ConatctEmailErrorMessage=Email is invalid, city=Pune, existingPassword=Avinash, invalidPassword=bnm, contactFormSubmissionMessage=Thanks for contacting us. We'll get back to you as soon as possible., firstName=abc, password=qwerty, headerErrorMessage=Please adjust the following:, phoneNumber=1234567890, existingLastName=test, existingName=avitest, loginError=Incorrect email or password., email=abcd@test.com, invalidEmail=abc@testcom, emailErrorMessage=Email is invalid., existingEmail=avitest@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountCreationWithPasswordBelowBoundaryValue -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:uiAutomationScripts.VerifyProfileManagement@65fb9ffc]" started-at="2024-03-01T16:10:21 IST" name="closeWindow" finished-at="2024-03-01T16:10:22 IST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- uiAutomationScripts.VerifyProfileManagement -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

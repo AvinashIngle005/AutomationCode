@@ -1,0 +1,16 @@
+[
+	{
+		"email":"sonalipol@gmail.com",
+		"password":"Sonali@12",
+		"successLogin": "Login Successfully",
+		"successLogout":"Logout Successfully",
+		"cartSuccessMessage":"Product Added To Cart",
+		"firstProduct":"Banarsi Saree",
+		"secondProduct":"qwerty",
+		"activeClass":"payment__type payment__type--cc active",
+		"paymentMethod":"Payment Method",
+		"cvvCode":"789",
+		"nameOnCard":"Test Name",
+		"orderPlacedMessage":"Order Placed Successfully"
+	}
+]

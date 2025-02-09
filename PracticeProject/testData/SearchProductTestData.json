@@ -1,0 +1,26 @@
+[
+  {
+    "product": "15mm Combo Wrench",
+    "firstName": "abc",
+    "lastName": "xyz",
+    "email": "abcd@test.com",
+    "invalidEmail": "abc@testcom",
+    "password": "qwerty",
+    "invalidPassword": "bnm",
+    "headerErrorMessage": "Please adjust the following:",
+    "emailErrorMessage": "Email is invalid.",
+    "passwordErrorMessage": "Password is too short (minimum is 5 characters).",
+    "address": "Hadapsar",
+    "city": "Pune",
+    "pincode": "411028",
+    "contactFormSubmissionMessage": "Thanks for contacting us. We'll get back to you as soon as possible.",
+    "phoneNumber": "1234567890",
+    "ConatctEmailErrorMessage": "Email is invalid",
+    "existingName": "avitest",
+    "existingLastName": "test",
+    "existingEmail": "avitest@test.com",
+    "existingPassword": "Avinash",
+    "wrongPassword": "Avinas",
+    "loginError": "Incorrect email or password."
+  }
+]
